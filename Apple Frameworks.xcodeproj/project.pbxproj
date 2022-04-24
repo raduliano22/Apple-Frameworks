@@ -8,19 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		ECC8AF1528151CDD003ACAD2 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8AF1428151CDD003ACAD2 /* Apple_FrameworksApp.swift */; };
-		ECC8AF1728151CDD003ACAD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8AF1628151CDD003ACAD2 /* ContentView.swift */; };
+		ECC8AF1728151CDD003ACAD2 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8AF1628151CDD003ACAD2 /* FrameworkGridView.swift */; };
 		ECC8AF1928151CDF003ACAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC8AF1828151CDF003ACAD2 /* Assets.xcassets */; };
 		ECC8AF1C28151CDF003ACAD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC8AF1B28151CDF003ACAD2 /* Preview Assets.xcassets */; };
 		ECC8AF2328151DBC003ACAD2 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8AF2228151DBC003ACAD2 /* Framework.swift */; };
+		ECC8AF25281528A5003ACAD2 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8AF24281528A5003ACAD2 /* FrameworkDetailView.swift */; };
+		ECC8AF2728152AB9003ACAD2 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8AF2628152AB9003ACAD2 /* AFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECC8AF1128151CDD003ACAD2 /* Apple Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC8AF1428151CDD003ACAD2 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
-		ECC8AF1628151CDD003ACAD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECC8AF1628151CDD003ACAD2 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		ECC8AF1828151CDF003ACAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC8AF1B28151CDF003ACAD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECC8AF2228151DBC003ACAD2 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		ECC8AF24281528A5003ACAD2 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		ECC8AF2628152AB9003ACAD2 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				ECC8AF1428151CDD003ACAD2 /* Apple_FrameworksApp.swift */,
-				ECC8AF1628151CDD003ACAD2 /* ContentView.swift */,
+				ECC8AF1628151CDD003ACAD2 /* FrameworkGridView.swift */,
+				ECC8AF24281528A5003ACAD2 /* FrameworkDetailView.swift */,
+				ECC8AF2228151DBC003ACAD2 /* Framework.swift */,
 				ECC8AF1828151CDF003ACAD2 /* Assets.xcassets */,
 				ECC8AF1A28151CDF003ACAD2 /* Preview Content */,
-				ECC8AF2228151DBC003ACAD2 /* Framework.swift */,
+				ECC8AF2628152AB9003ACAD2 /* AFButton.swift */,
 			);
 			path = "Apple Frameworks";
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC8AF1728151CDD003ACAD2 /* ContentView.swift in Sources */,
+				ECC8AF25281528A5003ACAD2 /* FrameworkDetailView.swift in Sources */,
+				ECC8AF1728151CDD003ACAD2 /* FrameworkGridView.swift in Sources */,
 				ECC8AF2328151DBC003ACAD2 /* Framework.swift in Sources */,
+				ECC8AF2728152AB9003ACAD2 /* AFButton.swift in Sources */,
 				ECC8AF1528151CDD003ACAD2 /* Apple_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
